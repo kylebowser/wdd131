@@ -4,11 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 Index</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Kyle Bowser</title>
+    <meta name="description" content="Kyle Bowser, WDD 131 - Dynamic Web Fundamentals, Home Page">
+    <meta name="author" content="Kyle Bowser">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <p>Hello, WDD131!</p>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav class="navigation">
+            <ul>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng&id=p13#p13">Scripture</a>
+                </li>
+                <li><a href="finalProject">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main contenteditable>
+        <h1>Kyle Bowser</h1>
+        <section class="card">
+            <p>
+                Hello! My name is Kyle Bowser, and I am currently a student at Brigham Young University
+                pursuing a degree in Web Design and Development. I have a passion for creating engaging
+                and user-friendly websites that provide value to users. In my free time, I enjoy hiking,
+                photography, and exploring new technologies in web development.
+            </p>
+            <img src="images/profile.jpg" alt="Profile Picture" width="120">
+        </section>
+        <section class="card">
+            <h2>Layton, Utah</h2>
+            <img src="images/utah.jpg" alt="Utah">
+            <p>
+                Layton is a city in Davis County, Utah, located just south of Hill Air Force Base.
+                It is known for its family-friendly atmosphere, outdoor recreational opportunities,
+                and proximity to the Wasatch Mountains. The city has a rich history and a strong sense
+                of community, making it a great place to live and work.
+            </p>
+        </section>
+    </main>
+    <div class="right-sidebar" contenteditable>
+        <h3>Web Dev Resources</h3>
+        <ul>
+            <li><a href="">Dev.to Community</a></li>
+            <li><a href="">Smashing Magazine</a></li>
+            <li><a href="">CSS Tricks</a></li>
+            <li><a href="">W3 Schools</a></li>
+            <li><a href="">Udemy</a></li>
+            <li><a href="">Image Placeholder</a></li>
+        </ul>
+    </div>
+    <footer contenteditable>
+        <p>&copy; <span id="current-year"></span> | Kyle Bowser | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
