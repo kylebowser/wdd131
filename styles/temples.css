@@ -1,0 +1,193 @@
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+/*nav {
+    background-color: purple;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+} */
+
+/* .navigation a:hover,
+.navigation a:active {
+    color: white;
+    background-color: black;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+} */
+
+/* header {
+    background-color: #bbb;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+} */
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: purple;
+}
+
+
+.header,
+main {
+    margin: 0 auto;
+}
+
+.header span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    color: #000;
+    margin-left: auto;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.show::before {
+    content: "\00d7";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navigation li {
+    display: none;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: white;
+    background-color: black;
+}
+
+.show li {
+    display: block;
+}
+
+
+.header.show span {
+    display: none;
+}
+
+.header.show .navigation {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header.show .navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header.show .navigation li {
+    display: block;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+#templeList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+}
+
+figure {
+    padding: 1rem;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 700;
+}
+
+footer {
+    background: purple;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+}
