@@ -1,0 +1,96 @@
+:root {
+    --top-color: green;
+    --bottom-color: red;
+    --font-color: white;
+    --border-color: black;
+
+}
+
+header {
+    background: var(--top-color);
+    color: var(--font-color);
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin: 2rem auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#data {
+    display: block;
+    padding: 2rem;
+    grid-column: 1 / 4;
+    text-align: center;
+    border: 2px solid var(--border-color);
+}
+
+#weather {
+    display: block;
+    padding: 2rem;
+    grid-column: 1 / 4;
+    text-align: center;
+    border: 2px solid var(--border-color);
+}
+
+footer {
+    background: var(--bottom-color);
+    color: var(--font-color);
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    div {
+        position: relative;
+    }
+
+    #heroimg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #data h2 {
+        background-color: var(--top-color);
+    }
+
+    #data {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 1rem;
+        border: 2px solid var(--border-color);
+    }
+
+    #weather {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 1rem;
+        border: 2px solid var(--border-color);
+    }
+
+    #weather img {
+        display: none;
+    }
+
+    #weather h2 {
+        background-color: var(--bottom-color);
+    }
+
+    #weather h2::after {
+        content: "☀️"
+    }
+
+
+}
