@@ -1,0 +1,89 @@
+h1 {
+    margin: 0;
+    font-weight: normal;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+main {
+    display: block;
+    margin: 2rem auto;
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+
+.wf1 fieldset {
+    margin: 40px 32.5% 2rem 32.5%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    background-color: lightgrey;
+}
+
+
+.wf1 label {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-top: 1rem;
+    color: black;
+    font-size: .9rem;
+}
+
+.wf1 div {
+    padding-top:
+        1rem;
+    color: black;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select,
+.wf1 textarea {
+    background-color: white;
+    display: block;
+    border: solid 1px grey;
+    border-radius: 6px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.optional {
+    font-size: .8rem;
+    color: blue;
+    font-style: italic;
+}
+
+.wf1 input[type="submit"] {
+    display: block;
+    border: none;
+    background-image: linear-gradient(red, crimson);
+    color: white;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 10px auto 2rem auto;
+    box-shadow: 1px 1px 4px grey;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+}
