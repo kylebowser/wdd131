@@ -87,3 +87,17 @@ footer {
     text-align: center;
     grid-column: 1 / 4;
 }
+
+@media only screen and (max-width: 20em) {
+    .wf1 fieldset {
+        margin: 40px 5% 2rem 5%;
+    }
+
+    .wf1 input[type="text"],
+    .wf1 input[type="date"],
+    .wf1 select,
+    .wf1 textarea {
+        max-width: 90%;
+        margin: 10px auto 2rem auto;
+    }
+}
